@@ -16,6 +16,35 @@
   color: white;
 }
 
+
+.container-lf {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.star {
+  font-size: 30px;    
+}
+
+.star::after,
+.star::before{
+  content: '';
+  display: inline-block;
+  width: 10%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: currentColor;
+}
+
+.star i{
+  margin: 0 10px;
+}
+
+
+/* header */
+
 header{
   height: 90px;
   background-color: var(--dark-blue);
@@ -37,15 +66,23 @@ header nav ul li a {
   text-decoration: none;
 }
 
+/* main */
+
+/* jumbotron */
+
 #jumbotron-lf{
  padding-top: 90px;
 }
 
-.container-lf {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
+.image {
+  width: 250px;
 }
+
+#j-text{
+  font-size: 20px;
+}
+
+/* portfolio */
 
 footer{
   color: white;
