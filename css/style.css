@@ -31,3 +31,18 @@ header{
   max-width: 1000px;
   margin: 0 auto;
 }
+
+footer{
+  color: white;
+}
+#footer-top{
+  background-color: var(--footer-up-bg);
+  /* debug */
+  min-height: 200px;
+}
+
+#footer-bottom{
+  background-color: var(--dark-blue);
+  /* debug */
+  min-height: 200px;
+}
