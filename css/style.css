@@ -4,12 +4,12 @@
   --green: #55BD9C;
   --text-dark: #333333;
 }
-/* 
+
 .debug {
   background-color: rgba(0, 128, 0, 0.27);
   border: 1px solid black;
   min-height: 50px;
-} */
+}
 
 .bg-green {
   background-color: var(--green);
