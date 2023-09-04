@@ -1,0 +1,27 @@
+:root{
+  --dark-blue: #2C3E50;
+  --footer-up-bg: #3A546D;
+  --green: #55BD9C;
+  --text-dark: #333333;
+}
+
+.debug {
+  background-color: rgba(0, 128, 0, 0.27);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.bg-green {
+  background-color: var(--green);
+  color: white;
+}
+
+header{
+  height: 90px;
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+#jumbotron-lf{
+ 
+}
