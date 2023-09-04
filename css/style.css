@@ -4,12 +4,12 @@
   --green: #55BD9C;
   --text-dark: #333333;
 }
-
+/* 
 .debug {
   background-color: rgba(0, 128, 0, 0.27);
   border: 1px solid black;
   min-height: 50px;
-}
+} */
 
 .bg-green {
   background-color: var(--green);
@@ -20,6 +20,21 @@ header{
   height: 90px;
   background-color: var(--dark-blue);
   color: white;
+}
+
+header nav ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 #jumbotron-lf{
