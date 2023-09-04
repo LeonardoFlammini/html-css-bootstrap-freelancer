@@ -25,3 +25,9 @@ header{
 #jumbotron-lf{
  
 }
+
+.container-lf {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
