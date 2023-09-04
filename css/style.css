@@ -2,14 +2,15 @@
   --dark-blue: #2C3E50;
   --footer-up-bg: #3A546D;
   --green: #55BD9C;
+  --green-over: #55bd9caa;
   --text-dark: #333333;
 }
-
+/* 
 .debug {
   background-color: rgba(0, 128, 0, 0.27);
   border: 1px solid black;
   min-height: 50px;
-}
+} */
 
 .bg-green {
   background-color: var(--green);
@@ -42,6 +43,9 @@
   margin: 0 10px;
 }
 
+section {
+  color: var(--text-dark);
+}
 
 /* header */
 
@@ -83,6 +87,33 @@ header nav ul li a {
 }
 
 /* portfolio */
+
+.card-lf {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-lf .overlay {
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--green-over);
+  color: white;
+  cursor: pointer;
+}
+
+.card-lf .overlay i{
+  font-size: 80px;
+}
+
+.card-lf:hover .overlay{
+  display: flex;
+}
 
 footer{
   color: white;
