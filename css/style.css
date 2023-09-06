@@ -115,6 +115,33 @@ header nav ul li a {
   display: flex;
 }
 
+
+/* FORM */
+
+#name,
+#phone,
+#email,
+#message {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  padding: 10px;
+}
+
+#button-lf {
+  background-color: var(--green);
+  border: none;
+}
+
+#button-lf:hover{
+  background-color: var(--green-over);
+}
+
 footer{
   color: white;
 }

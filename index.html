@@ -183,15 +183,44 @@
         <div class="container">
           
           <div class="section-title row row-cols-1 debug">
-            <div class="col text-center debug">Contact-Me</div>
+
+
+            <div class="col text-center align-middle text-uppercase debug">
+              <h2>Contact-me</h2>
+            </div>
+
+
             <div class="col star text-center align-middle debug">
               <i class="fa-solid fa-star"></i>
             </div>
           </div>
 
-          <div class="row row-cols-1 debug">
+          <!-- FORM -->
+          <div class="row row-cols-1 py-3 debug">
             <div class="col text-center debug">
-              FORM
+              
+
+              <!-- <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label> -->
+
+                <input type="text" name="name" id="name" placeholder="Nome" class="form-control mt-2">
+                <input type="email" name="email" id="email" placeholder="Email" class="form-control mt-2">
+                <input type="text" name="phone" id="phone" placeholder="Telefono" class="form-control mt-2">
+                <textarea name="message" id="message" placeholder="Messaggio" class="form-control " cols="30" rows="10"></textarea>
+               
+
+
+
+              </div>
+
+              <div class="col mt-2">
+                <button  type="submit" class="btn btn-success" id="button-lf">Send</button>
+              </div>
             </div>
           </div>
 
